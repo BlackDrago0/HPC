@@ -10,7 +10,7 @@
 
 import xml.dom.minidom as parser
 
-doc = parser.parse('E:\\triod315\\5 курс\HPC\HPC\Lab1\Data.xml')
+doc = parser.parse('E:\\Uni\\HPC\Lab1\Data.xml')
 
 allDataCsv=''
 
