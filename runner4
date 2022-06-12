@@ -2,7 +2,7 @@
 
 #PBS -l nodes=1:ppn=1                                                                                                                                                                                        
 #PBS -l walltime=0:02:00                                                                                                                                                                                     
-#PBS -N Hryshchuk_integral                                                                                                                                                                                   
+#PBS -N Mishyn_integral                                                                                                                                                                                   
 #PBS -t 1-240                                                                                                                                                                                                
 cd $PBS_O_WORKDIR                                                                                                                                                                                            
 
