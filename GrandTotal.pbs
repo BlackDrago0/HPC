@@ -2,7 +2,7 @@
 
 #PBS -l nodes=1:ppn=1
 #PBS -l walltime=0:02:00
-#PBS -N Hryshchuk_GrandTotal
+#PBS -N Mishyn_GrandTotal
 
 cd $PBS_O_WORKDIR
 
