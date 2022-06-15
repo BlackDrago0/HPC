@@ -6,7 +6,7 @@
 #PBS -t 1-240                                                                                                                                                                                               
 cd $PBS_O_WORKDIR                                                                                                                                                                                            
 
-line=`sed -n "${PBS_ARRAYID}p" ~/Lab1/solv.inp`                                                                                                                                                              
-result=`~/Lab1/integral $line | tail -n 1 | cut -f2 -d\ `                                                                                                                                                    
+line=`sed -n "${PBS_ARRAYID}p" ~/HPC/Lab1/solv.inp`                                                                                                                                                              
+result=`~/HPC/Lab1/integral $line | tail -n 1 | cut -f2 -d\ `                                                                                                                                                    
 
-echo $result > ~/Lab1/solvOut_${PBS_ARRAYID}.out
+echo $result > ~/HPC/Lab1/solvOut_${PBS_ARRAYID}.out
