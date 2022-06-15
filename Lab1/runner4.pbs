@@ -3,7 +3,7 @@
 #PBS -l nodes=1:ppn=1                                                                                                                                                                                        
 #PBS -l walltime=0:02:00                                                                                                                                                                                     
 #PBS -N Mishyn_integral                                                                                                                                                                                   
-#PBS -t 1-240                                                                                                                                                                                               
+#PBS -t 1-24                                                                                                                                                                                            
 cd $PBS_O_WORKDIR                                                                                                                                                                                            
 
 line=`sed -n "${PBS_ARRAYID}p" ~/HPC/Lab1/solv.inp`                                                                                                                                                              
