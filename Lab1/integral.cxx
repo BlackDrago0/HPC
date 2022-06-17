@@ -37,5 +37,5 @@ float integral (float (*f)(float), float xmin, float xmax, float ymin, float yma
 
 int main(){
   std::cout<< "RESULT: " <<std::endl;
-  integral(f,-2,2,0,4);
+  integral(f,min,max,0,4);
 }
