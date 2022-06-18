@@ -1,12 +1,3 @@
-// Author: Wes Kendall
-// Copyright 2011 www.mpitutorial.com
-// This code is provided freely with the tutorials on mpitutorial.com. Feel
-// free to modify it for your own use. Any distribution of the code must
-// either provide a link to www.mpitutorial.com or keep this header intact.
-//
-// An intro MPI hello world program that uses MPI_Init, MPI_Comm_size,
-// MPI_Comm_rank, MPI_Finalize, and MPI_Get_processor_name.
-//
 #include <mpi.h>
 #include <stdio.h>
 
