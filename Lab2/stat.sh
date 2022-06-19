@@ -20,5 +20,5 @@ echo "Statistics:" >> stat_out.out
 
 for k in {1..10}
 do
-        echo "s$k = 'cat ./stat_out.out | grep -o "s\"$k\".cluster" | wc -l'" >> stat_out.out
+        echo "s$k = `cat ./stat_out.out | grep -o "s\"$k\".cluster" | wc -l`" >> stat_out.out
 done
