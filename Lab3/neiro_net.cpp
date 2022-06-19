@@ -4,8 +4,8 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-    int proc_amount_min = atoi (argv[1]);
-    int proc_amount_max = atoi (argv[2]);
+    int proc_amount_min = atoi(argv[1]);
+    int proc_amount_max = atoi(argv[2]);
     int N = 20000, R = 10000;
     
     for(int p = proc_amount_min; p <= proc_amount_max; p++)
