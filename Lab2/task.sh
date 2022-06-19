@@ -8,7 +8,7 @@ cd /mnt/work/$USER
 
 ml icc
 ml openmpi
-mpirun -output-filename "./out/task_$arg1" $PBS_O_WORKDIR/hw
+mpirun -output-filename "./out/task_$arg1" $PBS_O_WORKDIR/hello
 
 if [[! -d "$PBS_O_WORKDIR/out"]]
 then
