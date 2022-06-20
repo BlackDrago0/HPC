@@ -7,5 +7,5 @@ ml openmpi
 
 for i in {1..24}
 do
-      mpirun -np $i ./m 1 20 $p_count
+      mpirun -np $i ./m
 done
